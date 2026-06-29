@@ -9,7 +9,7 @@ def isPalindrome(x: int) -> bool:
     
     return x == reversed_half or x == reversed_half // 10
 
-# --- Get user input and run immediately ---
+
 user_input = input("Enter an integer: ")
 
 try:
